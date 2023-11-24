@@ -32,27 +32,27 @@ These results indicate that our WebAssembly-based solution can perform up to 73 
 
 To develop and test the project locally:
 
-- 1. Clone the project from the GitHub repository:
+- Clone the project from the GitHub repository:
 
 ```bash
 git clone https://github.com/9ssi7/roadrunner.git
 cd roadrunner
 ```
 
-- 2. To build the Wasm module:
+- To build the Wasm module:
 
 ```bash
 wasm-pack build --target nodejs
 ```
 
-- 3. Install dependencies specified in the package.json file located in the js folder:
+- Install dependencies specified in the package.json file located in the js folder:
 
 ```bash
 cd roadrunner/js
 npm install
 ```
 
-- 4. Run benchmarks:
+- Run benchmarks:
 
 ```bash
 npm run benchmark-all
