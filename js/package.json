@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "example": "node example.js",
+    "benchmark-encode": "node benchmark-encode.js",
+    "benchmark-decode": "node benchmark-decode.js",
+    "benchmark-all": "npm run benchmark-encode && npm run benchmark-decode"
+  }
+}
