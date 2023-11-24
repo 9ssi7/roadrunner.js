@@ -48,7 +48,7 @@ wasm-pack build --target nodejs
 - Install dependencies specified in the package.json file located in the js folder:
 
 ```bash
-cd roadrunner/js
+cd js
 npm install
 ```
 
